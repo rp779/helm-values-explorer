@@ -1,71 +1,81 @@
-# helm-values-hover README
+# Helm Values Hover 🎡
 
-This is the README for your extension "helm-values-hover". After writing up a brief description, we recommend including the following sections.
+[![Version](https://img.shields.io/visual-studio-marketplace/v/helm-values-hover)](https://marketplace.visualstudio.com/items?itemName=helm-values-hover)
+[![Installs](https://img.shields.io/visual-studio-marketplace/i/helm-values-hover)](https://marketplace.visualstudio.com/items?itemName=helm-values-hover)
+[![Rating](https://img.shields.io/visual-studio-marketplace/r/helm-values-hover)](https://marketplace.visualstudio.com/items?itemName=helm-values-hover)
+[![License](https://img.shields.io/github/license/helm-values-hover)](LICENSE)
 
-## Features
+> 🚀 Supercharge your Helm development with instant value previews!
 
-Describe specific features of your extension including screenshots of your extension in action. Image paths are relative to this README file.
+A Visual Studio Code extension that enhances your Helm chart development experience by showing values from your `values.yaml` file when hovering over template expressions.
 
-For example if there is an image subfolder under your extension project workspace:
+## ✨ Features
 
-\!\[feature X\]\(images/feature-x.png\)
+- 🔍 **Instant Value Preview**: Hover over any `{{ .Values.* }}` expression to see its current value
+- 📁 **Smart File Detection**: Automatically finds `values.yaml` in current or parent directories
+- 🎯 **Zero Configuration**: Works out of the box with any Helm chart
+- 💪 **Type Support**: Shows proper YAML formatting for complex values
 
-> Tip: Many popular extensions utilize animations. This is an excellent way to show off your extension! We recommend short, focused animations that are easy to follow.
+## 📦 Installation
 
-## Requirements
+1. Open Visual Studio Code
+2. Press `Ctrl+P` / `Cmd+P` to open the Quick Open dialog
+3. Type `ext install helm-values-hover` and press Enter
 
-If you have any requirements or dependencies, add a section describing those and how to install and configure them.
+## 🚀 Usage
 
-## Extension Settings
+1. Open a Helm chart directory in VS Code
+2. Navigate to any template file (e.g., `templates/deployment.yaml`)
+3. Hover over any `{{ .Values.* }}` expression to see its value
 
-Include if your extension adds any VS Code settings through the `contributes.configuration` extension point.
+### Example
 
-For example:
+Given this `values.yaml`:
+\`\`\`yaml
+image:
+  repository: nginx
+  tag: latest
+port: 8080
+\`\`\`
 
-This extension contributes the following settings:
+When hovering over `{{ .Values.image.repository }}` in your template, you'll see:
+\`\`\`yaml
+image.repository: nginx
+\`\`\`
 
-* `myExtension.enable`: Enable/disable this extension.
-* `myExtension.thing`: Set to `blah` to do something.
+## 🔧 Requirements
 
-## Known Issues
+- Visual Studio Code version 1.99.0 or higher
+- Helm charts with valid `values.yaml` files
 
-Calling out known issues can help limit users opening duplicate issues against your extension.
+## ⚙️ Extension Settings
 
-## Release Notes
+This extension currently requires no configuration. It works automatically with any Helm chart structure.
 
-Users appreciate release notes as you update your extension.
+## 🤝 Contributing
 
-### 1.0.0
+Contributions are welcome! Here's how you can help:
 
-Initial release of ...
+1. Fork the repository
+2. Create your feature branch (\`git checkout -b feature/AmazingFeature\`)
+3. Commit your changes (\`git commit -m 'Add some AmazingFeature'\`)
+4. Push to the branch (\`git push origin feature/AmazingFeature\`)
+5. Open a Pull Request
 
-### 1.0.1
+## 📝 License
 
-Fixed issue #.
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-### 1.1.0
+## 🎉 Release Notes
 
-Added features X, Y, and Z.
+### 0.0.1
+- Initial release
+- Basic hover functionality for Helm values
+- Automatic values.yaml detection
+- YAML formatting for complex values
 
 ---
 
-## Following extension guidelines
+**Made with ❤️ for the Helm community**
 
-Ensure that you've read through the extensions guidelines and follow the best practices for creating your extension.
-
-* [Extension Guidelines](https://code.visualstudio.com/api/references/extension-guidelines)
-
-## Working with Markdown
-
-You can author your README using Visual Studio Code. Here are some useful editor keyboard shortcuts:
-
-* Split the editor (`Cmd+\` on macOS or `Ctrl+\` on Windows and Linux).
-* Toggle preview (`Shift+Cmd+V` on macOS or `Shift+Ctrl+V` on Windows and Linux).
-* Press `Ctrl+Space` (Windows, Linux, macOS) to see a list of Markdown snippets.
-
-## For more information
-
-* [Visual Studio Code's Markdown Support](http://code.visualstudio.com/docs/languages/markdown)
-* [Markdown Syntax Reference](https://help.github.com/articles/markdown-basics/)
-
-**Enjoy!**
+Got feedback? [Open an issue](https://github.com/yourusername/helm-values-hover/issues) or star the repo if you find it useful!
