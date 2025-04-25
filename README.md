@@ -1,9 +1,9 @@
 # Helm Values Explorer 🎡
 
-[![Version](https://img.shields.io/visual-studio-marketplace/v/rossp.helm-values-explorer.png)](https://marketplace.visualstudio.com/items?itemName=rossp.helm-values-explorer)
-[![Installs](https://img.shields.io/visual-studio-marketplace/i/rossp.helm-values-explorer.png)](https://marketplace.visualstudio.com/items?itemName=rossp.helm-values-explorer)
-[![Rating](https://img.shields.io/visual-studio-marketplace/r/rossp.helm-values-explorer.png)](https://marketplace.visualstudio.com/items?itemName=rossp.helm-values-explorer)
-[![License: MIT](https://img.shields.io/badge/License-MIT-blue.png)](LICENSE)
+[![Version](https://flat.badgen.net/vs-marketplace/v/rossp.helm-values-explorer)](https://marketplace.visualstudio.com/items?itemName=rossp.helm-values-explorer)
+[![Installs](https://flat.badgen.net/vs-marketplace/i/rossp.helm-values-explorer)](https://marketplace.visualstudio.com/items?itemName=rossp.helm-values-explorer)
+[![Rating](https://flat.badgen.net/vs-marketplace/rating/rossp.helm-values-explorer)](https://marketplace.visualstudio.com/items?itemName=rossp.helm-values-explorer)
+[![License: MIT](https://flat.badgen.net/badge/license/MIT/blue)](LICENSE)
 
 > 🚀 Navigate Helm values across multiple environments with ease!
 
