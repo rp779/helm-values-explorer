@@ -3,11 +3,11 @@
 [![Version](https://img.shields.io/visual-studio-marketplace/v/helm-values-explorer)](https://marketplace.visualstudio.com/items?itemName=helm-values-explorer)
 [![Installs](https://img.shields.io/visual-studio-marketplace/i/helm-values-explorer)](https://marketplace.visualstudio.com/items?itemName=helm-values-explorer)
 [![Rating](https://img.shields.io/visual-studio-marketplace/r/helm-values-explorer)](https://marketplace.visualstudio.com/items?itemName=helm-values-explorer)
-[![License](https://img.shields.io/github/license/helm-values-explorer)](LICENSE)
+[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 
 > 🚀 Navigate Helm values across multiple environments with ease!
 
-A Visual Studio Code extension that makes Helm chart development easier by instantly showing values from multiple environment-specific files.
+A Visual Studio Code extension that enhances your Helm chart development experience by providing instant value previews from multiple environment-specific values files.
 
 ## ✨ Features
 
@@ -81,4 +81,4 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 **Made with ❤️ for the Helm community**
 
-Got feedback? [Open an issue](https://github.com/yourusername/helm-values-explorer/issues) or star the repo if you find it useful!
+Got feedback? Open an issue or star the repo if you find it useful!
