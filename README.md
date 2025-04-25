@@ -70,12 +70,31 @@ Contributions are welcome! Here's how you can help:
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ## 🎉 Release Notes
+### 0.0.5 (2025-04-24)
+- Synchronized README and CHANGELOG release notes for better documentation consistency
 
-### 0.0.1
+### 0.0.4 (2025-04-24)
+- Updated CHANGELOG format and documentation
+- Improved README badge clarity using badgen.net
+
+### 0.0.3 (2025-04-24)
+- Updated extension icon
+- Improved package size by excluding development assets
+- Fixed README badges for better visibility on GitHub
+
+### 0.0.2 (2025-04-24)
+- Updated extension icon
+- Fixed README formatting and badge display
+
+### 0.0.1 (2025-04-24)
 - Initial release
-- Multi-environment values preview
-- Automatic values file detection
-- YAML formatting with source labels
+- Hover preview for Helm values
+- Support for multiple value files (values.yaml, dev-values.yaml, prod-values.yaml)
+- Automatic value file detection in current and parent directories
+- YAML formatting with source file labels
+- Configurable value file patterns
+- Toggle for showing/hiding source file names in hover
+
 
 ---
 

@@ -2,6 +2,10 @@
 
 All notable changes to the "Helm Values Explorer" extension will be documented in this file.
 
+## [0.0.5] - 2025-04-24
+### Changed
+- Synchronized README and CHANGELOG release notes for better documentation consistency
+
 ## [0.0.4] - 2025-04-24
 ### Changed
 - Updated CHANGELOG format and documentation
