@@ -4,6 +4,7 @@ out/**
 node_modules/**
 src/**
 !examples/**
+potential_icons/**
 .gitignore
 .yarnrc
 webpack.config.js

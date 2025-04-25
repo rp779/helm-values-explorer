@@ -1,9 +1,9 @@
 # Helm Values Explorer 🎡
 
-[![Version](https://img.shields.io/visual-studio-marketplace/v/rossp.helm-values-explorer)](https://marketplace.visualstudio.com/items?itemName=rossp.helm-values-explorer)
-[![Installs](https://vsmarketplacebadge.apphb.com/installs/rossp.helm-values-explorer.svg)](https://marketplace.visualstudio.com/items?itemName=rossp.helm-values-explorer)
-[![Rating](https://vsmarketplacebadge.apphb.com/rating/rossp.helm-values-explorer.svg)](https://marketplace.visualstudio.com/items?itemName=rossp.helm-values-explorer)
-[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
+[![Version](https://img.shields.io/visual-studio-marketplace/v/rossp.helm-values-explorer.png)](https://marketplace.visualstudio.com/items?itemName=rossp.helm-values-explorer)
+[![Installs](https://img.shields.io/visual-studio-marketplace/i/rossp.helm-values-explorer.png)](https://marketplace.visualstudio.com/items?itemName=rossp.helm-values-explorer)
+[![Rating](https://img.shields.io/visual-studio-marketplace/r/rossp.helm-values-explorer.png)](https://marketplace.visualstudio.com/items?itemName=rossp.helm-values-explorer)
+[![License: MIT](https://img.shields.io/badge/License-MIT-blue.png)](LICENSE)
 
 > 🚀 Navigate Helm values across multiple environments with ease!
 
