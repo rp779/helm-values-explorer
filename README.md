@@ -7,7 +7,7 @@
 
 > 🚀 Navigate Helm values across multiple environments with ease!
 
-A Visual Studio Code extension that makes Helm chart development easier by instantly showing values from multiple environment-specific files."
+A Visual Studio Code extension that makes Helm chart development easier by instantly showing values from multiple environment-specific files.
 
 ## ✨ Features
 
