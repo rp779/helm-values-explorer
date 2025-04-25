@@ -1,0 +1,19 @@
+# Production environment values
+image:
+  repository: nginx
+  tag: stable
+  pullPolicy: IfNotPresent
+  
+port: 80
+
+service:
+  type: ClusterIP
+  port: 80
+
+resources:
+  limits:
+    cpu: 1000m
+    memory: 1Gi
+  requests:
+    cpu: 500m
+    memory: 512Mi

@@ -1,0 +1,19 @@
+# Development environment values
+image:
+  repository: gunicorn
+  tag: dev
+  pullPolicy: Always
+  
+port: 8081
+
+service:
+  type: NodePort
+  port: 8081
+
+resources:
+  limits:
+    cpu: 200m
+    memory: 256Mi
+  requests:
+    cpu: 100m
+    memory: 128Mi
