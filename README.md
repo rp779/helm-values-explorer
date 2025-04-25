@@ -1,8 +1,8 @@
 # Helm Values Explorer 🎡
 
-[![Version](https://img.shields.io/visual-studio-marketplace/v/helm-values-explorer)](https://marketplace.visualstudio.com/items?itemName=helm-values-explorer)
-[![Installs](https://img.shields.io/visual-studio-marketplace/i/helm-values-explorer)](https://marketplace.visualstudio.com/items?itemName=helm-values-explorer)
-[![Rating](https://img.shields.io/visual-studio-marketplace/r/helm-values-explorer)](https://marketplace.visualstudio.com/items?itemName=helm-values-explorer)
+[![Version](https://img.shields.io/visual-studio-marketplace/v/rossp.helm-values-explorer)](https://marketplace.visualstudio.com/items?itemName=rossp.helm-values-explorer)
+[![Installs](https://vsmarketplacebadge.apphb.com/installs/rossp.helm-values-explorer.svg)](https://marketplace.visualstudio.com/items?itemName=rossp.helm-values-explorer)
+[![Rating](https://vsmarketplacebadge.apphb.com/rating/rossp.helm-values-explorer.svg)](https://marketplace.visualstudio.com/items?itemName=rossp.helm-values-explorer)
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 
 > 🚀 Navigate Helm values across multiple environments with ease!
@@ -21,7 +21,7 @@ A Visual Studio Code extension that enhances your Helm chart development experie
 
 1. Open Visual Studio Code
 2. Press `Ctrl+P` / `Cmd+P` to open the Quick Open dialog
-3. Type `ext install helm-values-explorer` and press Enter
+3. Type `ext install rossp.helm-values-explorer` and press Enter
 
 ## 🚀 Usage
 
@@ -81,4 +81,4 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 **Made with ❤️ for the Helm community**
 
-Got feedback? Open an issue or star the repo if you find it useful!
+Got feedback? [Open an issue](https://github.com/rp779/helm-values-explorer/issues) or star the repo if you find it useful!
