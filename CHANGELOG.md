@@ -2,6 +2,10 @@
 
 All notable changes to the "Helm Values Explorer" extension will be documented in this file.
 
+## [0.0.6] - 2025-04-28
+### Changed
+- Lowered minimum VSCode version requirement to 1.74.0 to improve compatibility with more VSCode installations
+
 ## [0.0.5] - 2025-04-24
 ### Changed
 - Synchronized README and CHANGELOG release notes for better documentation consistency
