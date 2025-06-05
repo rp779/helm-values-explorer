@@ -12,6 +12,7 @@ A Visual Studio Code extension that enhances your Helm chart development experie
 ## ✨ Features
 
 - 🔍 **Smart Value Preview**: Hover over any `{{ .Values.* }}` expression to instantly see values
+- 🎯 **Go to Definition**: Ctrl+Click on any `{{ .Values.* }}` expression to jump directly to its definition in the relevant values file(s)
 - 🌍 **Multi-Environment Support**: View values from multiple files (e.g., values.yaml, dev-values.yaml, prod-values.yaml)
 - 📁 **Intelligent File Detection**: Automatically finds values files in current and parent directories
 - 🎯 **Zero Configuration**: Works out of the box with any Helm chart
@@ -27,7 +28,8 @@ A Visual Studio Code extension that enhances your Helm chart development experie
 
 1. Open a Helm chart directory in VS Code
 2. Navigate to any template file (e.g., `templates/deployment.yaml`)
-3. Hover over any `{{ .Values.* }}` expression to see values from all matching files
+3. **Hover** over any `{{ .Values.* }}` expression to see values from all matching files
+4. **Ctrl+Click** on any `{{ .Values.* }}` expression to navigate to its definition in the values file(s)
 
 ### Example
 
@@ -41,12 +43,14 @@ mychart/
     └── deployment.yaml
 ```
 
-When hovering over `{{ .Values.image.repository }}`, you'll see:
+**Hover Preview**: When hovering over `{{ .Values.image.repository }}`, you'll see:
 ```yaml
 [values.yaml] image.repository: nginx
 [dev-values.yaml] image.repository: nginx-dev
 [prod-values.yaml] image.repository: nginx-prod
 ```
+
+**Go to Definition**: Ctrl+Click on `{{ .Values.image.repository }}` will jump to the definition of `image.repository` in the values file(s), allowing you to quickly navigate and edit the values.
 
 ## 🔧 Extension Settings
 
@@ -70,6 +74,14 @@ Contributions are welcome! Here's how you can help:
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ## 🎉 Release Notes
+### 0.0.7 (2025-01-XX)
+- Added **Go to Definition** support: Ctrl+Click on any `{{ .Values.* }}` expression to jump directly to its definition
+- Navigate between values definitions across multiple environment files
+- Precise cursor positioning at the exact YAML key location
+
+### 0.0.6 (2025-04-28)
+- Lowered minimum VSCode version requirement to 1.74.0 for better compatibility
+
 ### 0.0.5 (2025-04-24)
 - Synchronized README and CHANGELOG release notes for better documentation consistency
 

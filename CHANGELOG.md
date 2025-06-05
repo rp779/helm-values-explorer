@@ -2,6 +2,12 @@
 
 All notable changes to the "Helm Values Explorer" extension will be documented in this file.
 
+## [0.0.7] - 2025-01-XX
+### Added
+- **Go to Definition Support**: Ctrl+Click on any `{{ .Values.* }}` expression to jump directly to its definition in the relevant values file(s)
+- Navigate between values definitions across multiple environment files
+- Precise cursor positioning at the exact YAML key location
+
 ## [0.0.6] - 2025-04-28
 ### Changed
 - Lowered minimum VSCode version requirement to 1.74.0 to improve compatibility with more VSCode installations
