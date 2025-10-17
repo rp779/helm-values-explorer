@@ -1,0 +1,21 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: test-config
+data:
+  # Test complex expressions with pipes and functions
+  port: "{{ .Values.port | default 8080 }}"
+  image: "{{ .Values.image.repository | quote }}:{{ .Values.image.tag }}"
+  debug: "{{ .Values.debug | ternary "true" "false" }}"
+  name: "{{- .Values.service.name | default "my-service" -}}"
+  
+  # Test nested values
+  cpu_limit: "{{ .Values.resources.limits.cpu }}"
+  memory_limit: "{{ .Values.resources.limits.memory }}"
+  
+  # Test with whitespace variations
+  spaced_value: "{{  .Values.port  }}"
+  no_space_value: "{{.Values.image.pullPolicy}}"
+  
+  # Test multiple values in one line
+  full_image: "{{ .Values.image.repository }}:{{ .Values.image.tag | default "latest" }}"
